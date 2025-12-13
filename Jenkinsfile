@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds') // Docker Hub creds
         IMAGE_NAME = 'umasankardock/test-repo'
-        REMOTE_HOST = 'ec2-user@35.154.15.34'
+        REMOTE_HOST = 'ec2-user@3.108.64.198'
         REMOTE_APP_NAME = 'test-repo'
     }
 
