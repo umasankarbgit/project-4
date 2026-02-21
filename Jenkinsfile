@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds') // Docker Hub creds
+        DOCKERHUB_CREDENTIALS = credentials('docker-access-key') // Docker Hub creds
         IMAGE_NAME = 'umasankardock/test-repo'
-        REMOTE_HOST = 'ec2-user@3.108.64.198'
+        REMOTE_HOST = 'ec2-user@13.201.30.252'
         REMOTE_APP_NAME = 'test-repo'
     }
 
